@@ -38,10 +38,10 @@
             // lblDataTime
             // 
             this.lblDataTime.AutoSize = true;
-            this.lblDataTime.Font = new System.Drawing.Font("Modern No. 20", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataTime.Location = new System.Drawing.Point(71, 42);
+            this.lblDataTime.Font = new System.Drawing.Font("DS-Digital", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataTime.Location = new System.Drawing.Point(4, 16);
             this.lblDataTime.Name = "lblDataTime";
-            this.lblDataTime.Size = new System.Drawing.Size(122, 38);
+            this.lblDataTime.Size = new System.Drawing.Size(87, 36);
             this.lblDataTime.TabIndex = 0;
             this.lblDataTime.Text = "HORA";
             this.lblDataTime.Click += new System.EventHandler(this.label1_Click);
@@ -54,7 +54,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(371, 12);
+            this.button1.Location = new System.Drawing.Point(310, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // btn_iniciar
             // 
-            this.btn_iniciar.Location = new System.Drawing.Point(371, 86);
+            this.btn_iniciar.Location = new System.Drawing.Point(310, 40);
             this.btn_iniciar.Name = "btn_iniciar";
             this.btn_iniciar.Size = new System.Drawing.Size(75, 23);
             this.btn_iniciar.TabIndex = 2;
@@ -76,12 +76,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 121);
+            this.ClientSize = new System.Drawing.Size(397, 72);
             this.Controls.Add(this.btn_iniciar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblDataTime);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Reloj Simple";
             this.ResumeLayout(false);
             this.PerformLayout();
 
