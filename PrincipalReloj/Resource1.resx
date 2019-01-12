@@ -117,25 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Temporizador.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAD
-        FwAAAxcBwpsE1QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKESURBVGhD7ZrP
-        itNQGMX7KG5UxPEPqC8hCKO+j+DahRvFl8g042JIUxftTec9XGiF6UgHRHCp99QvIe2c72vu7UAvJQd+
-        0N7c83EObSYJnUGvXr3ilI+q18ORqzxLz989gwxuWLhXEq+b8pF7vzEoHQr3TmLakk+CD0mEvKyOJa4u
-        vxFfJzogHaqJxNV1MnK/uTkpfklcXcSUJBJXFzOliMTVxUwpInF1MVOKSFxdzJQiElcXM6WIxNXFTFv4
-        5FlsrIVw4cEMdkxF4upiJoMPK085OfKvEYjtsbjIRuf3MSMv3UdyXAUeU8xkcJWNJ09XvrPZnWHpvpM9
-        HL83G7vb8GKGX7u6tscAPlPMtIWmDIJ1KrNjCQCvKWbqwDIvZ0/g31qmVQIevxZcAsBvipk6cpkV1UPM
-        UMtcLxH9rIMZppgpgMXpmXuAOaTMt7oECvv3l61jwWCOKWYKZL2ML+D5mheTW1jDMeyRvdFglilmimD+
-        uTi/u5r3xd0DeI01f+zHxt4oMM8UM0WywPVFxtbXmp0/iRoZq4uZIvHnwOyRjB3k48ljv/ZzY080MlYX
-        M0XQlGh/tbD2/xj1BIF5ppgpkOb8aP2Jba4zcp7MZW80mGWKmQJoSsgVu32duNEymGOKmTpilahZ1rcz
-        u5bBDFPM1IE5bhrh73DvdCNl4DfFTFsIKVHTlFndNUeUgdcUMxk0JU6K6TP/PuQGcP0RILAMfKaYyeBg
-        HqzAQTzq7g2Jq4uZUkTi6mKmFJG4upgpRSSuLmZKEYmri5lSROLqOqQfeg7jp7fTcvqCm9MhK9xziWvL
-        N37LBqTB9I3E7KbWPwz8WR+0F5DB+RvTlxKvV69eQRoM/gGp/NTminUpBQAAAABJRU5ErkJggg==
-</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="asd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\asd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_ben_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\big_ben-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto_627777098_612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\istockphoto-627777098-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sci_Fi_Science_Fiction_Planets_Alien_Sky_1920_x_1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sci-Fi-Science-Fiction-Planets-Alien-Sky-1920-x-1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
