@@ -39,6 +39,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblDataTime = new System.Windows.Forms.Label();
+            this.lbl_ciudad = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_temp = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_humedad = new System.Windows.Forms.Label();
+            this.lbl_presion = new System.Windows.Forms.Label();
+            this.lbl_uPr = new System.Windows.Forms.Label();
+            this.lbl_cielo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,6 +68,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Parar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_iniciar
@@ -72,6 +82,7 @@
             this.btn_iniciar.TabIndex = 2;
             this.btn_iniciar.Text = "Iniciar";
             this.btn_iniciar.UseVisualStyleBackColor = false;
+            this.btn_iniciar.Visible = false;
             this.btn_iniciar.Click += new System.EventHandler(this.button2_Click);
             // 
             // lbl_Mes
@@ -140,12 +151,120 @@
             this.lblDataTime.BackColor = System.Drawing.Color.Transparent;
             this.lblDataTime.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDataTime.ForeColor = System.Drawing.Color.White;
-            this.lblDataTime.Location = new System.Drawing.Point(42, 36);
+            this.lblDataTime.Location = new System.Drawing.Point(108, 37);
             this.lblDataTime.Name = "lblDataTime";
             this.lblDataTime.Size = new System.Drawing.Size(241, 63);
             this.lblDataTime.TabIndex = 0;
             this.lblDataTime.Text = "00:00:00";
             this.lblDataTime.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lbl_ciudad
+            // 
+            this.lbl_ciudad.AutoSize = true;
+            this.lbl_ciudad.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ciudad.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ciudad.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_ciudad.Location = new System.Drawing.Point(32, 237);
+            this.lbl_ciudad.Name = "lbl_ciudad";
+            this.lbl_ciudad.Size = new System.Drawing.Size(328, 33);
+            this.lbl_ciudad.TabIndex = 8;
+            this.lbl_ciudad.Text = "Ciudad de Buenos Aires";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label3.Location = new System.Drawing.Point(50, 282);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(191, 33);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Temperatura:";
+            // 
+            // lbl_temp
+            // 
+            this.lbl_temp.AutoSize = true;
+            this.lbl_temp.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_temp.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_temp.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_temp.Location = new System.Drawing.Point(240, 283);
+            this.lbl_temp.Name = "lbl_temp";
+            this.lbl_temp.Size = new System.Drawing.Size(45, 33);
+            this.lbl_temp.TabIndex = 10;
+            this.lbl_temp.Text = "00";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label6.Location = new System.Drawing.Point(77, 364);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(108, 22);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Humedad:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label7.Location = new System.Drawing.Point(106, 392);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 22);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Presión:";
+            // 
+            // lbl_humedad
+            // 
+            this.lbl_humedad.AutoSize = true;
+            this.lbl_humedad.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_humedad.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_humedad.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_humedad.Location = new System.Drawing.Point(193, 364);
+            this.lbl_humedad.Name = "lbl_humedad";
+            this.lbl_humedad.Size = new System.Drawing.Size(47, 22);
+            this.lbl_humedad.TabIndex = 17;
+            this.lbl_humedad.Text = "Min:";
+            // 
+            // lbl_presion
+            // 
+            this.lbl_presion.AutoSize = true;
+            this.lbl_presion.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_presion.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_presion.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_presion.Location = new System.Drawing.Point(193, 392);
+            this.lbl_presion.Name = "lbl_presion";
+            this.lbl_presion.Size = new System.Drawing.Size(47, 22);
+            this.lbl_presion.TabIndex = 18;
+            this.lbl_presion.Text = "Min:";
+            // 
+            // lbl_uPr
+            // 
+            this.lbl_uPr.AutoSize = true;
+            this.lbl_uPr.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_uPr.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_uPr.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_uPr.Location = new System.Drawing.Point(261, 392);
+            this.lbl_uPr.Name = "lbl_uPr";
+            this.lbl_uPr.Size = new System.Drawing.Size(47, 22);
+            this.lbl_uPr.TabIndex = 19;
+            this.lbl_uPr.Text = "Min:";
+            // 
+            // lbl_cielo
+            // 
+            this.lbl_cielo.AutoSize = true;
+            this.lbl_cielo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cielo.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cielo.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lbl_cielo.Location = new System.Drawing.Point(125, 325);
+            this.lbl_cielo.Name = "lbl_cielo";
+            this.lbl_cielo.Size = new System.Drawing.Size(149, 30);
+            this.lbl_cielo.TabIndex = 20;
+            this.lbl_cielo.Text = "Cielo Claro";
             // 
             // Form1
             // 
@@ -154,7 +273,16 @@
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = global::PrincipalReloj.Resource1.asd;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(412, 396);
+            this.ClientSize = new System.Drawing.Size(412, 439);
+            this.Controls.Add(this.lbl_cielo);
+            this.Controls.Add(this.lbl_uPr);
+            this.Controls.Add(this.lbl_presion);
+            this.Controls.Add(this.lbl_humedad);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lbl_temp);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbl_ciudad);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -183,6 +311,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblDataTime;
+        private System.Windows.Forms.Label lbl_ciudad;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_temp;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbl_humedad;
+        private System.Windows.Forms.Label lbl_presion;
+        private System.Windows.Forms.Label lbl_uPr;
+        private System.Windows.Forms.Label lbl_cielo;
     }
 }
 
