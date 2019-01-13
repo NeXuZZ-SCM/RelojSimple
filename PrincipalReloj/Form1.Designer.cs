@@ -127,7 +127,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(46, 178);
+            this.label1.Location = new System.Drawing.Point(11, 178);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 42);
             this.label1.TabIndex = 6;
@@ -139,7 +139,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(44, 123);
+            this.label2.Location = new System.Drawing.Point(11, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 42);
             this.label2.TabIndex = 7;
@@ -151,7 +151,7 @@
             this.lblDataTime.BackColor = System.Drawing.Color.Transparent;
             this.lblDataTime.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDataTime.ForeColor = System.Drawing.Color.White;
-            this.lblDataTime.Location = new System.Drawing.Point(108, 37);
+            this.lblDataTime.Location = new System.Drawing.Point(7, 36);
             this.lblDataTime.Name = "lblDataTime";
             this.lblDataTime.Size = new System.Drawing.Size(241, 63);
             this.lblDataTime.TabIndex = 0;
@@ -164,7 +164,7 @@
             this.lbl_ciudad.BackColor = System.Drawing.Color.Transparent;
             this.lbl_ciudad.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ciudad.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_ciudad.Location = new System.Drawing.Point(32, 237);
+            this.lbl_ciudad.Location = new System.Drawing.Point(12, 236);
             this.lbl_ciudad.Name = "lbl_ciudad";
             this.lbl_ciudad.Size = new System.Drawing.Size(328, 33);
             this.lbl_ciudad.TabIndex = 8;
@@ -176,7 +176,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label3.Location = new System.Drawing.Point(50, 282);
+            this.label3.Location = new System.Drawing.Point(12, 283);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(191, 33);
             this.label3.TabIndex = 9;
@@ -188,7 +188,7 @@
             this.lbl_temp.BackColor = System.Drawing.Color.Transparent;
             this.lbl_temp.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_temp.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_temp.Location = new System.Drawing.Point(240, 283);
+            this.lbl_temp.Location = new System.Drawing.Point(237, 283);
             this.lbl_temp.Name = "lbl_temp";
             this.lbl_temp.Size = new System.Drawing.Size(45, 33);
             this.lbl_temp.TabIndex = 10;
@@ -200,7 +200,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label6.Location = new System.Drawing.Point(77, 364);
+            this.label6.Location = new System.Drawing.Point(14, 370);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(108, 22);
             this.label6.TabIndex = 13;
@@ -212,7 +212,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label7.Location = new System.Drawing.Point(106, 392);
+            this.label7.Location = new System.Drawing.Point(14, 392);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(78, 22);
             this.label7.TabIndex = 14;
@@ -224,7 +224,7 @@
             this.lbl_humedad.BackColor = System.Drawing.Color.Transparent;
             this.lbl_humedad.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_humedad.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_humedad.Location = new System.Drawing.Point(193, 364);
+            this.lbl_humedad.Location = new System.Drawing.Point(140, 370);
             this.lbl_humedad.Name = "lbl_humedad";
             this.lbl_humedad.Size = new System.Drawing.Size(47, 22);
             this.lbl_humedad.TabIndex = 17;
@@ -236,7 +236,7 @@
             this.lbl_presion.BackColor = System.Drawing.Color.Transparent;
             this.lbl_presion.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_presion.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_presion.Location = new System.Drawing.Point(193, 392);
+            this.lbl_presion.Location = new System.Drawing.Point(140, 392);
             this.lbl_presion.Name = "lbl_presion";
             this.lbl_presion.Size = new System.Drawing.Size(47, 22);
             this.lbl_presion.TabIndex = 18;
@@ -248,7 +248,7 @@
             this.lbl_uPr.BackColor = System.Drawing.Color.Transparent;
             this.lbl_uPr.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_uPr.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_uPr.Location = new System.Drawing.Point(261, 392);
+            this.lbl_uPr.Location = new System.Drawing.Point(239, 392);
             this.lbl_uPr.Name = "lbl_uPr";
             this.lbl_uPr.Size = new System.Drawing.Size(47, 22);
             this.lbl_uPr.TabIndex = 19;
@@ -260,7 +260,7 @@
             this.lbl_cielo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cielo.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_cielo.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lbl_cielo.Location = new System.Drawing.Point(125, 325);
+            this.lbl_cielo.Location = new System.Drawing.Point(13, 328);
             this.lbl_cielo.Name = "lbl_cielo";
             this.lbl_cielo.Size = new System.Drawing.Size(149, 30);
             this.lbl_cielo.TabIndex = 20;
